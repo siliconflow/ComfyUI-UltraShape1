@@ -54,7 +54,7 @@ model:
         main_image_encoder:
             type: DinoImageEncoder 
             kwargs:
-                version: 'facebook/dinov2-large' 
+                version: '/workspace/ComfyUI/models/UltraShape1/dinov2-large'
                 image_size: 1022
                 use_cls_token: true
         
